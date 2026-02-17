@@ -1,0 +1,146 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.exe
+*.elf
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+build/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.classpath
+*.project
+*.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Typst compilation outputs
+*.pdf
+*.png
+*.svg
+*.html
+*.txt
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# C++ specific
+*.tlog
+*.ipdb
+*.pdb
+*.ilk
+*.dSYM/
+Debug/
+Release/
+x64/
+x86/
+Win32/
+*.sdf
+*.opensdf
+*.opendb
+*.vcxproj.user
+*.vcxproj.filters
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+!_deps/
+compile_commands.json
+
+# Java specific - test reports
+test-output/
+*.test
+*.results
+jacoco.exec
+
+# Temp folders
+tmp/
+temp/
+cache/
+out/
