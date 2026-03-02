@@ -1,0 +1,15 @@
+OUT := "out"
+PLUGIN_DIR := "plugins"
+
+build-plugin:
+    mkdir -p {{PLUGIN_DIR}}
+    javac -d {{PLUGIN_DIR}} {{PLUGIN_DIR}}/HelloPlugin.java
+
+build-main:
+    mkdir -p {{OUT}}
+    javac -d {{OUT}} Main.java
+
+build: build-plugin build-main
+
+run: build
+    java -cp {{OUT}} Main

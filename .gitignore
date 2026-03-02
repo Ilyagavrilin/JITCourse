@@ -95,7 +95,6 @@ desktop.ini
 
 # Typst compilation outputs
 *.pdf
-*.png
 *.svg
 *.html
 *.txt

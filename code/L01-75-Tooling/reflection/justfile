@@ -1,0 +1,8 @@
+build:
+    javac Main.java
+
+run-broken: build
+    java Main
+
+run-fixed: build
+    java --add-opens java.base/java.io=ALL-UNNAMED Main
