@@ -1,0 +1,8 @@
+run:
+    mvn javafx:run -Dexec.mainClass=Checkers
+
+build:
+    mvn package
+
+class:
+    mvn compile

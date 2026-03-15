@@ -1,0 +1,8 @@
+gen:
+    mvn -q compile exec:java
+
+inspect: gen
+    javap -classpath generated -c -p GeneratedGuesses
+
+clean:
+    rm -rf generated target
