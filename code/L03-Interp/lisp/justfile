@@ -1,0 +1,24 @@
+run:
+    guile run_all.scm
+
+fib:
+    guile 01_fib.scm
+
+tail:
+    guile 02_tail_fib.scm
+
+func:
+    guile 03_functions.scm
+
+closure:
+    guile 04_closures.scm
+
+eval:
+    guile 05_eval.scm
+
+codegen:
+    guile 06_codegen.scm
+
+# REPL
+repl:
+    guile
